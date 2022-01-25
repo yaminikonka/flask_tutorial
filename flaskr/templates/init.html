@@ -1,0 +1,21 @@
+<!--
+#Created: 25 Jan 2022 by Yamini Konka
+#Last access: 25 Jan 2022
+#***********************
+-->
+
+
+
+<!doctype html>
+<title>{% block title %}{% endblock %} HomePage</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<div>
+	<p style="color:#FF77BB;font-size:80px">Welcome to Technologie Blog Post <br> Post what\'s in your mind</p>
+
+</div>
+
+
+{{ get_flashed_message }}
+	<h1>Start Posting your ideas</h1>
+	<input type="Submit" value="To blog post page">
